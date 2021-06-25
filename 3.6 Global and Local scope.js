@@ -28,6 +28,7 @@ if (true){
 console.log(`Global scope: `,a,b,c); 
 //prints Global scope:  7 2 3 
 //here we can see var changes and let,const remain same in global space
+//so it will use "let" for variable declaration
 
 
 
