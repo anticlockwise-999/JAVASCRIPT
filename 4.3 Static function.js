@@ -2,7 +2,7 @@
 //Static function
 class person {  
     constructor(fname, lname) { //function = constructor   fname= parameter
-        this.firstname = fname ; //property=firstname,
+        this.firstname = fname ; //property=firstname, this indicates property of object
         this.lastname = lname ;
     }
     greeting(){ //gretting = function or method
