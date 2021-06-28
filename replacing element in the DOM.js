@@ -7,7 +7,7 @@ let oldHeading = document.querySelector('h3'); //selected h3
 
 let parent = document.querySelector('.container'); //selected class container from div
 
-parent.replaceChild(newHeading,oldHeading);
+parent.replaceChild(newHeading,oldHeading); //replacing
 console.log(newHeading);
 console.log(oldHeading);
 console.log(parent);
