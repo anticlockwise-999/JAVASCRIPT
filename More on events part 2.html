@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <form action= "">
+            <input type= "text" id= "name">
+            <p>this input field is empty</p>
+        </form>
+    </div>
+
+
+
+
+    <script>
+document.querySelector('#name').addEventListener('focus',test); 
+document.querySelector('#name').addEventListener('focus',test2);
+
+function test(e){
+console.log("Focused"); //open a box of form
+}
+
+function test2(e){
+document.getElementById('demo').innerText = this.value;
+}
+
+        
+    </script>
+    
+</body>
+</html>
