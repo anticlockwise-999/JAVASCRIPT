@@ -1,3 +1,5 @@
+//part 1
+
 var age= prompt();
 
 if (age >= 50){
@@ -9,3 +11,14 @@ if (age >= 50){
 } else {
     console.log("Under 18");
 }
+
+//part2: return
+
+function testEqual(val) {
+  if (val==12) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testEqual(10);
