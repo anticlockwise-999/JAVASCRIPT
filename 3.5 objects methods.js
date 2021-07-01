@@ -22,4 +22,13 @@ let str = "Kante";
 console.log(str.length); //5
 console.log(str.split()); 
 
+//Another way
 
+var myObj = {
+  "Space Name": "Kirk",
+  "More Space": "Spock",
+  "NoSpace": "USS Enterprise"
+};
+myObj["Space Name"];
+myObj['More Space'];
+myObj["NoSpace"];
