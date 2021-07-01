@@ -4,3 +4,12 @@ while (i <=5){
     i++;
 }
 console.log("Out of the loop");
+
+//another way
+var myArray = [];
+var i = 5;
+while(i >= 0) {
+  myArray.push(i);
+  i--;
+  console.log(i); //prints 4,3,2,1,0,-1
+}
