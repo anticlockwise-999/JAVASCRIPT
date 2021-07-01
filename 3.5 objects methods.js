@@ -41,3 +41,23 @@ var myDog = "Hunter";
 var myBreed = dogs[myDog];
 console.log(myBreed);
 
+
+
+//Accessing Nested Objects
+
+
+var ourStorage = {
+  "desk": {
+    "drawer": "stapler"
+  },
+  "cabinet": {
+    "top drawer": { 
+      "folder1": "a file",
+      "folder2": "secrets"
+    },
+    "bottom drawer": "soda"
+  }
+};
+console.log(ourStorage.cabinet["top drawer"].folder2); //prints secrets
+console.log(ourStorage.desk.drawer); //prints staplar
+
