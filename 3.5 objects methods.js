@@ -61,3 +61,26 @@ var ourStorage = {
 console.log(ourStorage.cabinet["top drawer"].folder2); //prints secrets
 console.log(ourStorage.desk.drawer); //prints staplar
 
+
+//Accessing Nested Arrays
+
+var ourPets = [
+  {
+    animalType: "cat",
+    names: [
+      "Meowzer",
+      "Fluffy",
+      "Kit-Cat"
+    ]
+  },
+  {
+    animalType: "dog",
+    names: [
+      "Spot",
+      "Bowser",
+      "Frankie"
+    ]
+  }
+];
+console.log(ourPets[0].names[1]); //prints Fluffy
+console.log(ourPets[1].names[0]); //prints Spot
