@@ -32,3 +32,12 @@ var myObj = {
 myObj["Space Name"];
 myObj['More Space'];
 myObj["NoSpace"];
+
+//Another one
+var dogs = {
+  Fido: "Mutt",  Hunter: "Doberman",  Snoopie: "Beagle"
+};
+var myDog = "Hunter";
+var myBreed = dogs[myDog];
+console.log(myBreed);
+
