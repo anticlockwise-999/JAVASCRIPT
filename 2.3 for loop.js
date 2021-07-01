@@ -57,3 +57,16 @@ function multiplyAll(arr) {
     return product;
   }
   console.log(multiplyAll([[1,2],[3,4],[5,6,7]]));
+
+
+//Replace Loops using Recursion
+function sum(arr, n) {
+
+    if(n <= 0) {
+      return 0;
+    } else {
+      return sum(arr, n-1 ) + arr[n-1];
+    }
+  }
+  console.log(sum([2, 3, 4, 5], 4));  //prints 14 //since 2+3+4+5=14
+
