@@ -48,15 +48,17 @@ for (var i = 0; i < myArr.length; i++) {
 function multiplyAll(arr) {
     var product = 1;
  
-    for (var i = 0; i < arr.length; i++) {
-      for (var j = 0; j < arr[i].length; j++) {
+    for (var i = 0; i < arr.length; i++) { //i =array number
+        //array length =3 
+      for (var j = 0; j < arr[i].length; j++) {  //j= element number in array
         product = product * arr[i][j];
+  
       }
-    }
-    
+    }  
     return product;
   }
-  console.log(multiplyAll([[1,2],[3,4],[5,6,7]]));
+  console.log(multiplyAll([[1,2],[3,4,5],[2]])); //prints 240
+
 
 
 //Replace Loops using Recursion
